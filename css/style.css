@@ -90,6 +90,10 @@ article, aside, details, figcaption, figure,
 		box-sizing: border-box;
 		border-radius: 10px;
 		padding: 50px 40px;
+		transition: all 0.5s ease 0.1s;
+	}
+	.card:hover {
+		transform: translateY(-20px);
 	}
 	.card_first {
 		grid-area: card_first;
@@ -168,7 +172,7 @@ article, aside, details, figcaption, figure,
 	.list li {
 		font-weight: 600;
 		font-size: 14px;
-		line-height: 24px;
+		line-height: 23px;
 		letter-spacing: 0.2px;
 		color: #252B42;
 		text-align: left;
@@ -203,7 +207,7 @@ article, aside, details, figcaption, figure,
 		border-left: 1px solid transparent;
 		border-top: 1px solid transparent;
 	}
-	button {
+	.button {
 		font-weight: 700;
 		font-size: 14px;
 		line-height: 22px;
@@ -217,4 +221,50 @@ article, aside, details, figcaption, figure,
 		padding: 15px;
 		width: 100%;
 		margin-top: 35px;
+		transition: all 0.5s ease 0.1s;
 	}
+	.button:hover {
+		cursor: pointer;
+		background: #1c88c7;
+		box-shadow: 3px 3px 6px #000000;
+	}
+	.button:focus {
+		cursor: pointer;
+		background: #10699c;
+		box-shadow: none;
+		color: #252B42;
+	}
+
+
+
+	@media screen and (max-width: 768px) {
+		.pricing {
+			row-gap: 60px;
+		}
+		.paragraph_pricing {
+			font-weight: 700;
+			width: 264px;
+		}
+		.cards_container {
+			grid-auto-flow: row;
+		}
+		.cards_container {
+			grid-template-columns: 327px;
+			grid-template-rows: repeat(3, 40px 665px) ;
+			/* grid-auto-flow: column; */
+			grid-template-areas: 
+				" . "
+				"card_first"
+				"card_second"
+				"card_second"
+				" . "
+				"card_third";
+		}
+		.card {
+			margin-bottom: 30px;
+		}
+		.card_third {
+			margin-top: -40px;
+		}
+	}
+	

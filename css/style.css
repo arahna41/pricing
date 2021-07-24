@@ -79,7 +79,6 @@ article, aside, details, figcaption, figure,
 		grid-template-rows: 40px 665px;
 		justify-content: center;
 		column-gap: 1px;
-		grid-auto-flow: column;
 		grid-template-areas: 
 			" . card_second . "
 			"card_first card_second card_third";
@@ -235,8 +234,6 @@ article, aside, details, figcaption, figure,
 		color: #252B42;
 	}
 
-
-
 	@media screen and (max-width: 768px) {
 		.pricing {
 			row-gap: 60px;
@@ -250,8 +247,7 @@ article, aside, details, figcaption, figure,
 		}
 		.cards_container {
 			grid-template-columns: 327px;
-			grid-template-rows: repeat(3, 40px 665px) ;
-			/* grid-auto-flow: column; */
+			grid-template-rows: repeat(3, 40px 665px);
 			grid-template-areas: 
 				" . "
 				"card_first"

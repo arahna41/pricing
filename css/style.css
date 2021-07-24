@@ -46,7 +46,7 @@ article, aside, details, figcaption, figure,
 	}
 /* style */
 	body {
-		font-family: Montserrat;
+		font-family: "Montserrat", "Arial", sans-serif;
 	}
 	.pricing {
 		display: grid;

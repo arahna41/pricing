@@ -59,14 +59,14 @@ article, aside, details, figcaption, figure,
 		justify-items: center;
 	}
 	.heading_pricing {
-		font-size: 2.5em;
+		font-size: 40px;
 		font-weight: 700;
 		line-height: 57px;
 		letter-spacing: 0.2px;
 		color: #252B42;
 	}
 	.paragraph_pricing {
-		font-size: 0.875em;
+		font-size: 14px;
 		line-height: 20px;
 		text-align: center;
 		letter-spacing: 0.2px;
@@ -109,7 +109,7 @@ article, aside, details, figcaption, figure,
 		color: #FFFFFF;
 	}
 	.heading_card {
-		font-size: 1.5em;
+		font-size: 24px;
 		font-weight: 700;
 		line-height: 32px;
 		letter-spacing: 0.1px;
@@ -117,7 +117,7 @@ article, aside, details, figcaption, figure,
 		text-transform: uppercase;
 	}
 	.heading_2_card {
-		font-size: 1em;
+		font-size: 16px;
 		font-weight: 700;
 		line-height: 24px;
 		width: 160px;
@@ -144,7 +144,7 @@ article, aside, details, figcaption, figure,
 	.number {
 		color: #23A6F0;
 		font-weight: 700;
-		font-size: 2.5em;
+		font-size: 40px;
 		letter-spacing: 0.2px;
 		grid-area: number;
 		padding-left: 10px;
@@ -152,14 +152,14 @@ article, aside, details, figcaption, figure,
 	.currency {
 		color: #23A6F0;
 		font-weight: 700;
-		font-size: 1em;
+		font-size: 16px;
 		letter-spacing: 0.1px;
 		grid-area: currency;
 	}
 	.period {
 		color: #8EC2F2;
 		font-weight: 600;
-		font-size: 0.875em;
+		font-size: 14px;
 		letter-spacing: 0.2px;
 		grid-area: period;
 	}
@@ -170,7 +170,7 @@ article, aside, details, figcaption, figure,
 	}
 	.list li {
 		font-weight: 600;
-		font-size: 0.875em;
+		font-size: 14px;
 		line-height: 23px;
 		letter-spacing: 0.2px;
 		color: #252B42;
@@ -208,7 +208,7 @@ article, aside, details, figcaption, figure,
 	}
 	.button {
 		font-weight: 700;
-		font-size: 0.875em;
+		font-size: 14px;
 		line-height: 22px;
 		text-align: center;
 		letter-spacing: 0.2px;
